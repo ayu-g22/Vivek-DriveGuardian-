@@ -40,3 +40,13 @@
     transform: rotate(360deg);
   }
 }
+
+select {
+  z-index: 9999 !important;
+  position: relative;
+  background: white;
+}
+
+.modal-container {
+  overflow: visible !important;
+}
